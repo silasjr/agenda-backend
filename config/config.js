@@ -9,7 +9,7 @@ const config = {
       name: 'nodejs-mongodb'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://localhost:27017/agenda'
+    db: 'mongodb://admin:admin.123@ds239930.mlab.com:39930/agenda'
   },
 
   test: {
@@ -18,7 +18,7 @@ const config = {
       name: 'nodejs-mongodb'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/agenda'
+    db: 'mongodb://admin:admin.123@ds239930.mlab.com:39930/agenda'
   },
 
   production: {
@@ -27,7 +27,7 @@ const config = {
       name: 'nodejs-mongodb'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/agenda'
+    db: 'mongodb://admin:admin.123@ds239930.mlab.com:39930/agenda'
   }
 };
 
